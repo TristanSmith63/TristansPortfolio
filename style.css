@@ -33,37 +33,45 @@ html {
 }
 
 /* PROFILE SECTION */
+#profile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
 .profile-pic {
   height: 560px;
   width: 500px;
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 /* PROJECTS SECTION */
-
-.project-1{
+.project-1 {
   display: flex;
-  opacity: 1;
-  align-items: flex-end;
-  height: 500px;
-  width: 600px;
-  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;  
+  padding-top: 20px;
 }
-.projects-pic{
-  /* display: flex; */
-  justify-content: space-between;
-  align-items: center;
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.project-pic{
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction:row;
+ justify-content: center;
   width: 600px;
   height: 400px;
- 
-}
-.projects-pic2 {
-  /* display: flex; */
-  justify-content: space-between;
-  align-items: center;
-  width: 600px;
-  height: 400px;
-}
+ }
 
 .project-1:hover {
   transform: scale(1.1);
@@ -97,6 +105,7 @@ section {
   cursor: pointer;
   height: 50px;
   float: left;
+  
 }
 
 /* BUTTONS */
