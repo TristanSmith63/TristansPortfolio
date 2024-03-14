@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="desktop-nav">
+        <!-- <div class="logo">Tristan Smith</div> -->
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <nav id="hamburger-nav">
+        <div class="logo">Tristan Smith</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <ul>
+              <li><a href="#about" onclick="toggleMenu()">About</a></li>
+              <li>
+                <a href="#experience" onclick="toggleMenu()">Experience</a>
+              </li>
+              <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+              <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- INTRO SECTION  -->
+    <section id="Intro">
+      <p>Hello, I'm</p>
+      <h1>Tristan Smith</h1>
+      <h1>UofU Coding Bootcamp Student</h1>
+    </section>
+<!-- PROFILE SECTION  -->
+    <section id="profile">
+      <article>
+        <img
+          class="profile-pic"
+          src="assets/Mainphoto.PNG"
+          alt="Tristan Smith Profile Picture"
+        />
+      </article>
+    </section>
+<!-- ABOUT SECTION  -->
+    <section id="about">
+      <article>
+        <h2>About Me</h2>
+        <p>
+          Hi, my name is Tristan Smith. I have a passion for Computers, cars,
+          etc.
+        </p>
+      </article>
+    </section>
+<!-- SECTION EXPERIENCE -->
+    <section id="experience">
+      <article>
+        <h2>Experience</h2>
+        <p>
+          My experience in this field isn't as wide as I would like. I am
+          passionate and driven to expand my knowledge.
+        </p>
+      </article>
+    </section>
+<!-- SECTION PROJECTS  -->
+    <section id="projects">
+      <article>
+        <h2>Projects</h2>
+        <p>
+          Projects of mine have been exclusive to school work. I plan to update
+          this when I have more projects completed. Be sure to check out my
+          GitHub by clicking on the GitHub icon at the bottom.
+        </p>
+        <a
+          href="https://tristansmith63.github.io/HoeRiseSun/"
+          class="project-1"
+        >
+          <img
+            class="projects-pic"
+            src="./assets/Horiseon-screenshot.png"
+            alt="Horiseon Project Screenshot"
+          />
+        </a>
+      </article>
+    </section>
+<!-- CONTACT SECTION  -->
+    <section id="contact">
+      <article>
+        <h2>Contact Me</h2>
+        <p>
+          You can contact me through Email at tristan-63@hotmail.com and be sure
+          to check out my LinkedIn by clicking on the LinkedIn icon at the
+          bottom.
+        </p>
+      </article>
+    </section>
+<!-- FOOTER SECTION/LINKEDIN/GITHUB ICONS -->
+    <footer>
+      <div class="footer">
+        <img
+          id="linkedIn-icon"
+          src="assets/LI-In-Bug.png"
+          alt="My LinkedIn profile"
+          onclick="location.href='https://linkedin.com/'"
+        />
+        <img
+          class="gitHub-icon"
+          src="assets/github-mark.png"
+          alt="My GitHub profile"
+          onclick="location.href='https://github.com/TristanSmith63'"
+        />
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
