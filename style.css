@@ -5,14 +5,12 @@
 * {
   margin: 0;
   padding: 0;
-  text-align:center ;
-  
+  text-align: center;
 }
 
 /* BODY */
 body {
   font-family: "Poppins", sans-serif;
-  
 }
 
 /* HTML SECTION */
@@ -29,7 +27,7 @@ html {
 /* INTRO SECTION */
 .Intro {
   font-family: "Poppins", sans-serif;
-  color: rgb(181, 181, 181)
+  color: rgb(181, 181, 181);
 }
 
 /* PROFILE SECTION */
@@ -37,7 +35,6 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 .profile-pic {
   height: 560px;
@@ -53,9 +50,8 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  flex-direction: row;  
+  flex-direction: row;
   padding-top: 20px;
-  
 }
 
 #projects {
@@ -64,20 +60,43 @@ html {
   justify-content: center;
   flex-direction: row;
 }
-
-.project-pic{
- display: block;
- flex-wrap: wrap;
- flex-direction:row;
- justify-content: center;
+/* Project 1 section */
+.project-pic {
+  display: block;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
   width: 600px;
   height: 400px;
- }
-
+}
 .project-1:hover {
   transform: scale(1.1);
 }
 
+/* Project 2 section  */
+.project-pic-2 {
+  display: inline;
+  margin: 100px;
+  padding: 10px;
+  width: 500px;
+  height: 500px;
+}
+.project-2:hover {
+  transform: scale(1.1);
+}
+
+/* Project 3 section */
+.project-pic-3 {
+  display: inline;
+  margin: 100px;
+  padding: 10px;
+  width: 500px;
+  height: 500px;
+}
+ .project-3:hover {
+  transform: scale(1.1);
+ }
+ 
 /* DESK TOP NAV */
 section {
   padding-top: 4vh;
@@ -89,7 +108,7 @@ section {
 
 .Intro {
   font-family: "Poppins", sans-serif;
-  color: rgb(181, 181, 181)
+  color: rgb(181, 181, 181);
 }
 
 /* ICON */
@@ -98,15 +117,12 @@ section {
   height: 50px;
   float: left;
   padding-right: 30px;
-  
-
 }
 
 .gitHub-icon {
   cursor: pointer;
   height: 50px;
   float: left;
-  
 }
 
 /* BUTTONS */
@@ -232,16 +248,15 @@ a:hover {
   display: flex;
 }
 
-.footer{
+.footer {
   margin: 0px 10rem;
 }
-
 
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
   }
   #hamburger-nav {
-    display: flex; 
-}
+    display: flex;
+  }
 }
